@@ -81,7 +81,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../project_filters/project_filters.srcs/sources_1/new/BasculeFF.vhd">
+      <File Path="$PPRDIR/BasculeFF.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
