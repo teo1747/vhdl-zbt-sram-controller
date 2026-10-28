@@ -119,7 +119,7 @@ begin
         wr_en    <= '0';
 
         -- BURST READ
-        wait for 40 ns;
+        wait for 60 ns;  -- the burst write takes 6 clocks
         rd_en <= '1';
         wait for 10 ns;
         rd_en <= '0';
